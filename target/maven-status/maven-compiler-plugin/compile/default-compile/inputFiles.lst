@@ -1,35 +1,35 @@
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Entity\hys.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Dto\NuevoUsuario.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Controller\AuthController.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Dto\LoginUsuario.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Service\RolService.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Enums\RolNombre.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\jwt\JwtTokenFilter.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Controller\PersonaController.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\jwt\JwtProvider.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Interface\IPersonaService.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Controller\Mensaje.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Entity\Rol.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Entity\Usuario.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Controller\Chys.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\mainSecurity.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Repository\Rhys.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Repository\UsuarioRepository.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\SEducacion.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Controller\CEducacion.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Entity\Educacion.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Service\UsuarioService.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Dto\DtoEducacion.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Repository\RolRepository.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Service\ImpPersonaService.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Dto\JwtDto.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Entity\Persona.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Repository\REducacion.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\jwt\JwtEntryPoint.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Dto\dtohys.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\WebConfig.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Entity\UsuarioPrincipal.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Repository\IPersonaRepository.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Security\Service\UserDetailsServiceImpl.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\Service\Shys.java
-C:\PortfolioJMC\PortfolioJMC\backend\src\main\java\com\portfolio\julcuevas\JulcuevasApplication.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Repository\UsuarioRepository.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\mainSecurity.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Repository\REducacion.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\jwt\JwtProvider.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Entity\Rol.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Controller\Chys.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Entity\Usuario.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Service\ImpPersonaService.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\JulcuevasApplication.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Service\UsuarioService.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Controller\Mensaje.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\jwt\JwtEntryPoint.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Controller\CEducacion.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Entity\hys.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Repository\Rhys.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Controller\AuthController.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Interface\IPersonaService.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Repository\IPersonaRepository.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Repository\RolRepository.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\SEducacion.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Controller\PersonaController.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\WebConfig.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Entity\Educacion.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Entity\Persona.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Dto\DtoEducacion.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Entity\UsuarioPrincipal.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Dto\LoginUsuario.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Dto\NuevoUsuario.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Service\UserDetailsServiceImpl.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Service\RolService.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\jwt\JwtTokenFilter.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Dto\JwtDto.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Dto\dtohys.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Enums\RolNombre.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Service\Shys.java

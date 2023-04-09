@@ -108,21 +108,6 @@
                 <version>2.19.1</version>
             </plugin>
             
-             <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-            <executions>
-    <execution>
-        <goals>
-            <goal>repackage</goal>
-        </goals>
-    </execution>
-</executions>
-            <mainClass>com.baeldung.demo.DemoApplication</mainClass>
-            <layout>JAR</layout>
-        </configuration>
-    </plugin>
         </plugins>
       
     </build>

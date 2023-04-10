@@ -62,9 +62,4 @@ public class mainSecurity {
 
         return http.build();
     }
-
-    @Bean
-    public WebSecurityCustomizer webSecurityCustomizer() {
-        return (web) -> web.ignoring().requestMatchers("/auth", "/login", "/auth/login");
-    }
 }

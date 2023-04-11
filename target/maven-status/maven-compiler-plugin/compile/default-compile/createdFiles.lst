@@ -17,6 +17,7 @@ com\portfolio\julcuevas\Security\jwt\JwtEntryPoint.class
 com\portfolio\julcuevas\Security\Dto\NuevoUsuario.class
 com\portfolio\julcuevas\Security\Service\RolService.class
 com\portfolio\julcuevas\Dto\DtoEducacion.class
+com\portfolio\julcuevas\WebConfig.class
 com\portfolio\julcuevas\Controller\PersonaController.class
 com\portfolio\julcuevas\Security\Service\UserDetailsServiceImpl.class
 com\portfolio\julcuevas\Security\mainSecurity.class

@@ -89,6 +89,7 @@
         <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
+            <version>3.1.0</version>
             <type>jar</type>
         </dependency>
         
@@ -108,10 +109,21 @@
                 <version>2.19.1</version>
             </plugin>
             
-         <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-        </plugin>
+              <plugin>
+      <!-- Build an executable JAR -->
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.1.0</version>
+      <configuration>
+        <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>com.mypackage.MyClass</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
+    </plugin>
     
         </plugins>
       

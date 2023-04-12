@@ -14,6 +14,7 @@ import com.portfolio.julcuevas.Security.Service.RolService;
 import com.portfolio.julcuevas.Security.Service.UsuarioService;
 import com.portfolio.julcuevas.Security.jwt.JwtProvider;
 import jakarta.validation.Valid;
+import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -34,11 +35,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/auth/")
 @CrossOrigin
 
 public class AuthController {
-    @Autowired
+@Autowired
     PasswordEncoder passwordEncoder;
     @Autowired
     AuthenticationManager authenticationManager;
@@ -92,5 +93,6 @@ public class AuthController {
         
         return new ResponseEntity(jwtDto, HttpStatus.OK);
     }
+   
     
 }

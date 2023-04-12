@@ -14,7 +14,6 @@ import com.portfolio.julcuevas.Security.Service.RolService;
 import com.portfolio.julcuevas.Security.Service.UsuarioService;
 import com.portfolio.julcuevas.Security.jwt.JwtProvider;
 import jakarta.validation.Valid;
-import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,16 +25,14 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+
+
 
 import java.util.HashSet;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/auth/")
+@RequestMapping("/auth")
 @CrossOrigin
 
 public class AuthController {
@@ -48,7 +45,7 @@ public class AuthController {
     @Autowired
     RolService rolService;
     @Autowired
-    JwtProvider jwtProvider;
+   JwtProvider jwtProvider;
     
     @PostMapping("/nuevo")
     public ResponseEntity<?> nuevo(@Valid @RequestBody NuevoUsuario nuevoUsuario, BindingResult bindingResult){
@@ -91,7 +88,7 @@ public class AuthController {
         
         JwtDto jwtDto = new JwtDto(jwt, userDetails.getUsername(), userDetails.getAuthorities());
         
-        return new ResponseEntity(jwtDto, HttpStatus.OK);
+       return new ResponseEntity(jwtDto, HttpStatus.OK);
     }
    
     

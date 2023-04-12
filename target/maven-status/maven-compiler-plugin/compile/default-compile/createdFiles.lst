@@ -14,6 +14,7 @@ com\portfolio\julcuevas\Interface\IPersonaService.class
 com\portfolio\julcuevas\Service\ImpPersonaService.class
 com\portfolio\julcuevas\Service\Shys.class
 com\portfolio\julcuevas\Security\jwt\JwtEntryPoint.class
+com\portfolio\julcuevas\JulcuevasApplication$1.class
 com\portfolio\julcuevas\Security\Dto\NuevoUsuario.class
 com\portfolio\julcuevas\Security\Service\RolService.class
 com\portfolio\julcuevas\Dto\DtoEducacion.class

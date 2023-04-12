@@ -5,7 +5,6 @@ com\portfolio\julcuevas\Security\Entity\UsuarioPrincipal.class
 com\portfolio\julcuevas\Security\jwt\JwtProvider.class
 com\portfolio\julcuevas\Security\Dto\LoginUsuario.class
 com\portfolio\julcuevas\Security\Repository\UsuarioRepository.class
-com\portfolio\julcuevas\Dto\dtoPersona.class
 com\portfolio\julcuevas\Controller\CEducacion.class
 com\portfolio\julcuevas\Repository\IPersonaRepository.class
 com\portfolio\julcuevas\Entity\hys.class

@@ -30,7 +30,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/auth/")
 @CrossOrigin(origins= {"https://frontend-6f20b.web.app"})
 
 public class AuthController {

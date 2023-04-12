@@ -19,11 +19,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@CrossOrigin(origins = {"https://frontend-6f20b.web.app/persona/"})
+@CrossOrigin(origins = {"https://frontend-6f20b.web.app/"})
 public class PersonaController {
        @Autowired
     IPersonaService ipersonaService;
-
+  
     @GetMapping("persona/traer")
     public List<Persona> getPersona() {
         return ipersonaService.getPersona();

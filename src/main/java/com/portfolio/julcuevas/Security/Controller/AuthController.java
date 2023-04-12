@@ -35,7 +35,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins= {"https://frontend-6f20b.web.app"})
+@CrossOrigin
 
 public class AuthController {
     @Autowired

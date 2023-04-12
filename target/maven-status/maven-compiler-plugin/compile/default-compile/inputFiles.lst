@@ -17,6 +17,7 @@ C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Controller\Auth
 C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Interface\IPersonaService.java
 C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Repository\IPersonaRepository.java
 C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\Repository\RolRepository.java
+C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Dto\dtoPersona.java
 C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Security\SEducacion.java
 C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Controller\PersonaController.java
 C:\Portfolio Back\src\main\java\com\portfolio\julcuevas\Entity\Educacion.java

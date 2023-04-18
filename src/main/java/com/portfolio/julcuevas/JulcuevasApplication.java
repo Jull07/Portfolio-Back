@@ -14,7 +14,7 @@ public class JulcuevasApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JulcuevasApplication.class, args);
 	}
-   @Bean
+            @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowCredentials(true);

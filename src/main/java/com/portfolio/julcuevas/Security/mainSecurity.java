@@ -61,5 +61,4 @@ public class mainSecurity {
 
         return http.build();
     }
-    
 }

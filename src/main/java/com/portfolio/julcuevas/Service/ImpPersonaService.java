@@ -12,13 +12,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImpPersonaService implements IPersonaService{
-    @Autowired IPersonaRepository ipersonaRepository;
 
+public class ImpPersonaService implements IPersonaService{
+    @Autowired 
+            private IPersonaRepository ipersonaRepository;
+    
     @Override
     public List<Persona> getPersona() {
         List<Persona> persona = ipersonaRepository.findAll();
-        return persona;
+                return persona;
     }
 
     @Override
@@ -27,14 +29,13 @@ public class ImpPersonaService implements IPersonaService{
     }
 
     @Override
-    public void deletePersona(Long id) {
-        ipersonaRepository.deleteById(id);
-    }
+    public void deletePersona(Long Id) {
+         ipersonaRepository.deleteById(Id);    }
 
     @Override
-    public Persona findPersona(Long id) {
-        Persona persona = ipersonaRepository.findById(id).orElse(null);
-        return persona;
-    }
+    public Persona findPersona(Long Id) {
+         Persona persona = ipersonaRepository.findById(Id).orElse(null);
+    return persona; }
     
 }
+    
